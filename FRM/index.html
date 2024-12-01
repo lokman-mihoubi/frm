@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Fallah</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Marcellus:wght@400&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    .header {
+    height: 70px; /* Fixed height for navbar */
+    overflow: hidden; /* Prevents elements from breaking layout */
+    
+}
+.custom-green-btn {
+    background-color: green;
+    color: white; /* Adjust text color for contrast */
+    border-color: green; /* Optional */
+}
+
+.custom-green-btn:hover {
+    background-color: darkgreen; /* Optional hover effect */
+}
+
+
+#logo-img {
+    max-height: 100px; /* Keeps logo within navbar height */
+    height: auto; /* Maintain aspect ratio */
+    width: auto; /* Prevent distortion */
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+@media (max-width: 768px) {
+    .header {
+        height: 60px; /* Adjust navbar height for mobile */
+    }
+    #logo-img {
+        max-height: 60px; /* Scale logo for mobile */
+    }
+}
+.post-img {
+  height: 250px; /* Set the fixed height */
+  overflow: hidden; /* Ensures that any image part outside the container is hidden */
+}
+
+.post-img img {
+  width: 100%; /* Ensures that the image stretches to the full width of the parent container */
+  height: 100%; /* Ensures that the image takes up the full height of the parent container */
+  object-fit: cover; /* Ensures the image is properly contained in the container without distortion */
+}
+
+/* Default direction (LTR) for larger screens */
+.navmenu {
+  direction: ltr; /* Left to Right */
+}
+
+/* RTL direction for screens smaller than 768px */
+@media (max-width: 768px) {
+  .navmenu {
+    direction: rtl; /* Right to Left */
+  }
+}
+
+
+
+  </style>
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center position-relative">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+     
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+    </nav>
+    
+
+    </div>
+  </header>
+
+  <main class="main">
+
+   <!-- قسم البطل -->
+<section id="hero" class="hero section dark-background">
+
+  <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+
+    <div class="carousel-item active">
+      <img src="assets/img/frm1.jpg" alt="">
+      <div class="carousel-container">
+        <!-- <h2>مرحباً بكم في موقع فلاح</h2> -->
+
+      </div>
+    </div><!-- نهاية العنصر الدوار -->
+    <div class="carousel-item active">
+      <img src="assets/img/frm2.jpg" alt="">
+      <div class="carousel-container">
+        <!-- <h2>مرحباً بكم في موقع فلاح</h2> -->
+
+      </div>
+    </div><!-- نهاية العنصر الدوار -->
+    <div class="carousel-item active">
+      <img src="assets/img/frm3.jpg" alt="">
+      <div class="carousel-container">
+        <!-- <h2>مرحباً بكم في موقع فلاح</h2> -->
+
+      </div>
+    </div><!-- نهاية العنصر الدوار -->
+   
+
+   
+
+    <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+    </a>
+
+    <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+    </a>
+
+    <ol class="carousel-indicators"></ol>
+
+  </div>
+
+</section><!-- /قسم البطل -->
+
+
+
+    <section id="recent-posts" class="recent-posts section" dir="rtl">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>منتجاتنا</h2>
+        <p style="font-size: 18px; color: black;">اتصلوا بنا على الرقم <strong>0660702177</strong> لأي استفسار</p>
+      </div><!-- End Section Title -->
+    
+      <div class="container">
+        <div class="row gy-5">
+    
+          <!-- Product Item 1 -->
+          <div class="col-xl-4 col-md-6">
+            <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="100">
+              <div class="post-img position-relative overflow-hidden" >
+                <img src="assets/img/frm1.jpg" class="img-fluid"  alt="منتج 1">
+              </div>
+    
+              <div class="post-content d-flex flex-column">
+                <h3 class="post-title"> </h3>
+    
+                <div class="meta d-flex align-items-center">
+                  <div class="d-flex align-items-center">
+                  </div>
+                </div>
+    
+                <hr>
+    
+                <button class="btn custom-green-btn" data-bs-toggle="modal" data-bs-target="#productModal" data-product-name="خضروات متنوعة" data-product-price="15">0660702177</button>
+              </div>
+            </div>
+          </div><!-- End post item -->
+    
+          <!-- Product Item 2 -->
+          <div class="col-xl-4 col-md-6">
+            <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="200">
+              <div class="post-img position-relative overflow-hidden">
+                <img src="assets/img/frm2.jpg" class="img-fluid" alt="منتج 2">
+              </div>
+    
+              <div class="post-content d-flex flex-column">
+                <h3 class="post-title"> </h3>
+    
+                <div class="meta d-flex align-items-center">
+                  <div class="d-flex align-items-center">
+                  </div>
+                </div>
+    
+                <hr>
+    
+                <button class="btn custom-green-btn" data-bs-toggle="modal" data-bs-target="#productModal" data-product-name="خضروات متنوعة" data-product-price="15">0660702177</button>
+              </div>
+            </div>
+          </div><!-- End post item -->
+          <!-- Product Item 2 -->
+          <div class="col-xl-4 col-md-6">
+            <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="200">
+              <div class="post-img position-relative overflow-hidden" style="max-height:300px">
+                <img src="assets/img/frm3.jpg" class="img-fluid" style="max-height:300px;" alt="منتج 2">
+              </div>
+    
+              <div class="post-content d-flex flex-column">
+                <h3 class="post-title"> </h3>
+    
+                <div class="meta d-flex align-items-center">
+                  <div class="d-flex align-items-center">
+                  </div>
+                </div>
+    
+                <hr>
+    
+                <button class="btn custom-green-btn" data-bs-toggle="modal" data-bs-target="#productModal" data-product-name="خضروات متنوعة" data-product-price="15">0660702177</button>
+              </div>
+            </div>
+          </div><!-- End post item -->
+          <div class="col-xl-4 col-md-6">
+            <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="200">
+              <div class="post-img position-relative overflow-hidden" style="max-height:300px">
+                <img src="assets/img/frm4.jpg" class="img-fluid" style="max-height:300px;" alt="منتج 2">
+              </div>
+    
+              <div class="post-content d-flex flex-column">
+                <h3 class="post-title"> </h3>
+    
+                <div class="meta d-flex align-items-center">
+                  <div class="d-flex align-items-center">
+                  </div>
+                </div>
+    
+                <hr>
+    
+                <button class="btn custom-green-btn" data-bs-toggle="modal" data-bs-target="#productModal" data-product-name="خضروات متنوعة" data-product-price="15">0660702177</button>
+              </div>
+            </div>
+          </div><!-- End post item -->
+          <div class="col-xl-4 col-md-6">
+            <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="200">
+              <div class="post-img position-relative overflow-hidden" style="max-height:300px">
+                <img src="assets/img/frm5.jpg" class="img-fluid" style="max-height:300px;" alt="منتج 2">
+              </div>
+    
+              <div class="post-content d-flex flex-column">
+                <h3 class="post-title"> </h3>
+    
+                <div class="meta d-flex align-items-center">
+                  <div class="d-flex align-items-center">
+                  </div>
+                </div>
+    
+                <hr>
+    
+                <button class="btn custom-green-btn" data-bs-toggle="modal" data-bs-target="#productModal" data-product-name="خضروات متنوعة" data-product-price="15">0660702177</button>
+              </div>
+            </div>
+          </div><!-- End post item -->
+          <div class="col-xl-4 col-md-6">
+            <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="200">
+              <div class="post-img position-relative overflow-hidden" style="max-height:300px">
+                <img src="assets/img/frm2.jpg" class="img-fluid" style="max-height:300px;" alt="منتج 2">
+              </div>
+    
+              <div class="post-content d-flex flex-column">
+                <h3 class="post-title"> </h3>
+    
+                <div class="meta d-flex align-items-center">
+                  <div class="d-flex align-items-center">
+                  </div>
+                </div>
+    
+                <hr>
+    
+                <button class="btn custom-green-btn" data-bs-toggle="modal" data-bs-target="#productModal" data-product-name="خضروات متنوعة" data-product-price="15">0660702177</button>
+              </div>
+            </div>
+          </div><!-- End post item -->
+    
+        </div>
+      </div>
+    
+    </section><!-- End Recent Posts Section -->
+    
+    
+   
+    <!-- CSS for styling -->
+    <style>
+      .sell-products {
+        padding: 60px 0;
+        background-color: #f8f9fa;
+      }
+    
+      .sell-products .form-control.is-invalid {
+        border-color: #dc3545;
+      }
+    
+      .sell-products .invalid-feedback {
+        color: #dc3545;
+        font-size: 0.875em;
+      }
+    
+      .sell-products .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+        padding: 10px 20px;
+        border-radius: 8px;
+      }
+    
+      .sell-products .btn-primary:hover {
+        background-color: #0056b3;
+        border-color: #004085;
+      }
+    </style>
+    
+    
+    
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    
+
+
+    
+
+  </main>
+
+  <footer id="footer" class="footer dark-background" dir="rtl">
+
+   
+
+</footer>
+
+
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
